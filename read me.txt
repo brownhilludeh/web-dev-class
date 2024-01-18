@@ -1,4 +1,7 @@
 ******Notes******
-
+Class1: Created folders
+Class 2: Used scss and wrote few lines of codes
+Class 3: HTML Structure
+Class 4: HTML Navbar 
 
 ********* HTML CSS JS SCSS Projects *********
