@@ -1,1 +1,36 @@
 @import "resets";
+
+// Nav Bar SCSS
+nav {
+  width: 100vw;
+  display: flex;
+
+  padding: 2%;
+}
+
+.nav-bar {
+  width: 100%;
+  max-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    height: 50px;
+  }
+}
+ .nav-items {
+   display: flex;
+   align-items: center;
+   .navlist{
+    padding-inline: 1em;
+    transition: all .5s ease-in-out;
+    &:hover {
+        color: orangered;
+        background-color: azure;
+      }
+   }
+ }
+
+
+
+// img

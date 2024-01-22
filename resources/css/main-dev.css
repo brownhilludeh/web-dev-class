@@ -17,4 +17,41 @@ a {
 
 ul {
   list-style: none;
+}
+
+.container {
+  border: #010018 solid;
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  padding: 2%;
+}
+
+.nav-bar {
+  width: 100%;
+  max-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-bar img {
+  height: 50px;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+.nav-items .navlist {
+  padding-inline: 1em;
+  transition: all 0.5s ease-in-out;
+}
+.nav-items .navlist:hover {
+  color: orangered;
+  background-color: azure;
 }/*# sourceMappingURL=main-dev.css.map */
