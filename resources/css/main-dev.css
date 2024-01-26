@@ -19,28 +19,17 @@ ul {
   list-style: none;
 }
 
-.container {
-  border: #010018 solid;
-  max-width: 1400px;
-  width: 100%;
-  margin: auto;
-}
-
-nav {
-  width: 100vw;
+.nav-bar {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 2%;
 }
 
-.nav-bar {
+.container {
+  max-width: 1240px;
   width: 100%;
-  max-height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.nav-bar img {
-  height: 50px;
+  margin: auto;
 }
 
 .nav-items {
@@ -49,9 +38,14 @@ nav {
 }
 .nav-items .navlist {
   padding-inline: 1em;
+  font-size: 18px;
   transition: all 0.5s ease-in-out;
 }
 .nav-items .navlist:hover {
   color: orangered;
-  background-color: azure;
+  background-color: beige;
+}
+
+img {
+  height: 50px;
 }/*# sourceMappingURL=main-dev.css.map */
