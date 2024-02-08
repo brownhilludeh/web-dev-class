@@ -25,6 +25,10 @@ ul {
   align-items: center;
   padding: 2%;
 }
+.nav-bar img {
+  height: 50px;
+  width: auto;
+}
 
 .container {
   max-width: 1240px;
@@ -46,6 +50,23 @@ ul {
   background-color: beige;
 }
 
-img {
-  height: 50px;
+.card {
+  border: solid;
+  padding: 3em 1%;
+}
+.card .card-header {
+  border-left: solid 5px orangered;
+  padding: 0.75em;
+  border-radius: 1em;
+}
+.card .card-header .card-title {
+  font-size: 1.5em;
+  font-size: 700;
+}
+.card .card-header .sub-title {
+  font-weight: 200;
+  color: gray;
+}
+.card .card-body {
+  width: 100%;
 }/*# sourceMappingURL=main-dev.css.map */

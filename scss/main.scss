@@ -6,7 +6,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 2%;
+  img{
+    height: 50px;
+    width: auto;
+  }
 }
+
 .container{
   max-width: 1240px;
   width: 100%;
@@ -16,27 +21,37 @@
 .nav-items{
   display: flex;
   align-items: center;
-
   .navlist{
     padding-inline: 1em;
     font-size: 18px;
     transition: all .5s ease-in-out;
-
     &:hover{
       color: orangered;
       background-color: beige;
     }
   }
-
 }
 
+// Hero
 
-
-
-
-
-
-
-img{
-  height: 50px;
+// Cards
+.card{
+  border: solid;
+  padding: 3em 1%;
+  .card-header{
+    border-left: solid 5px orangered;
+    padding: .75em;
+    border-radius: 1em;
+    .card-title{
+      font-size: 1.5em;
+      font-size: 700;
+    }
+    .sub-title{
+      font-weight: 200;
+      color: gray;
+    }
+  }
+  .card-body{
+    width: 100%;
+  }
 }
