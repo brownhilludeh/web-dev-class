@@ -20,9 +20,15 @@ ul{
   list-style: none;
 }
 
-// .container{
-//   border: #010018 solid;
-//   max-width: 1400px;
-//   width: 100%;
-//   margin: auto;
-// }
+.gray{
+  background-color: rgba(192, 192, 192, 0.6);
+}
+.peach{
+  background-color: rgba(255, 218, 185, 0.6);
+}
+.pink{
+  background-color: rgba(255, 192, 203, 0.6);
+}
+.yellow{
+  background-color: rgba(255, 255, 151, 0.6);
+}

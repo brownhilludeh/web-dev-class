@@ -19,6 +19,22 @@ ul {
   list-style: none;
 }
 
+.gray {
+  background-color: rgba(192, 192, 192, 0.6);
+}
+
+.peach {
+  background-color: rgba(255, 218, 185, 0.6);
+}
+
+.pink {
+  background-color: rgba(255, 192, 203, 0.6);
+}
+
+.yellow {
+  background-color: rgba(255, 255, 151, 0.6);
+}
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -51,7 +67,6 @@ ul {
 }
 
 .card {
-  border: solid;
   padding: 3em 1%;
 }
 .card .card-header {
@@ -69,4 +84,21 @@ ul {
 }
 .card .card-body {
   width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.8em;
+  margin: 1em 0;
+}
+.card .card-body .cards {
+  padding: 0.8em;
+  border-radius: 0.6em;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.lead {
+  font-weight: 300;
 }/*# sourceMappingURL=main-dev.css.map */

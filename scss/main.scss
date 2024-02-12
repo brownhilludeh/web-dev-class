@@ -36,7 +36,6 @@
 
 // Cards
 .card{
-  border: solid;
   padding: 3em 1%;
   .card-header{
     border-left: solid 5px orangered;
@@ -53,5 +52,21 @@
   }
   .card-body{
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: .8em;
+    margin: 1em 0;
+    .cards{
+      padding: .8em;
+      border-radius: .6em;
+    }
   }
+}
+
+.title{
+  font-size: 1.5em;
+  font-weight: 300;
+}
+.lead{
+  font-weight: 300;
 }
