@@ -9,6 +9,7 @@
 body{
   background-color: azure;
   color: #010018;
+  font-family: "Roboto", sans-serif;;
 }
 
 a{
@@ -20,15 +21,35 @@ ul{
   list-style: none;
 }
 
-.gray{
-  background-color: rgba(192, 192, 192, 0.6);
-}
 .peach{
-  background-color: rgba(255, 218, 185, 0.6);
+  background-color: peachpuff;
 }
-.pink{
-  background-color: rgba(255, 192, 203, 0.6);
+.mint{
+  background-color: mintcream;
 }
 .yellow{
-  background-color: rgba(255, 255, 151, 0.6);
+  background-color: rgb(255, 255, 197);
+}
+.gray{
+  background-color: rgba(184, 184, 184, 0.658);
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: auto;
+}
+
+.title{
+  color: darkblue;
+    font-size: larger;
+      line-height: 1.1;
+}
+.sub-title{
+  font-weight: 300;
+  color: rgba(31, 31, 15, 0.616);
+}
+.lead{
+  font-weight: 300;
+  font-size: 18px;
 }

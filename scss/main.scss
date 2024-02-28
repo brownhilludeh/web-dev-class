@@ -1,31 +1,28 @@
 @import "resets";
 
 // Nav Bar SCSS
-.nav-bar{
+.nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2%;
-  img{
+
+  img {
     height: 50px;
     width: auto;
   }
 }
 
-.container{
-  max-width: 1240px;
-  width: 100%;
-  margin: auto;
-}
-
-.nav-items{
+.nav-items {
   display: flex;
   align-items: center;
-  .navlist{
+
+  .navlist {
     padding-inline: 1em;
     font-size: 18px;
     transition: all .5s ease-in-out;
-    &:hover{
+
+    &:hover {
       color: orangered;
       background-color: beige;
     }
@@ -34,39 +31,26 @@
 
 // Hero
 
-// Cards
-.card{
-  padding: 3em 1%;
-  .card-header{
-    border-left: solid 5px orangered;
-    padding: .75em;
-    border-radius: 1em;
-    .card-title{
-      font-size: 1.5em;
-      font-size: 700;
-    }
-    .sub-title{
-      font-weight: 200;
-      color: gray;
-    }
+// Card
+.card {
+  padding: 1%;
+
+  .card-header {
+    border-left: solid 3px orangered;
+    margin: 8px 0;
+    padding: 0 8px;
   }
-  .card-body{
+
+  .card-body {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: .8em;
-    margin: 1em 0;
-    .cards{
-      padding: .8em;
-      border-radius: .6em;
-    }
+    gap: 12px;
+    margin-top: 26px;
   }
-}
 
-.title{
-  font-size: 1.5em;
-  font-weight: 300;
-}
-.lead{
-  font-weight: 300;
+  .cards {
+    padding: 8px;
+    border-radius: 8px;
+  }
 }
