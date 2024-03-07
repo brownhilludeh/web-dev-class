@@ -30,20 +30,61 @@
 }
 
 // Hero
+.hero {
+  height: 70vh;
+  width: 100vw;
+
+  .wrap {
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+
+    .hero-img {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      object-position: center;
+      object-fit: cover;
+      overflow: hidden;
+
+      img {
+        margin: auto;
+        height: auto;
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    .hero-info {
+      background-color: rgba(0, 0, 0, 0.37);
+      color: white;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+
 // .hero{
 //   height: 70vh;
 //   width: 100vw;
 //   border: solid;
 
-  // .wrap {
-  //   height: 70vh;
+// .wrap {
+//   height: 70vh;
 
-  //   .hero-img {
-  //       height: 100%;
-  //       width: auto;
-  //       overflow: hidden;
-  //     }
-  // }
+//   .hero-img {
+//       height: 100%;
+//       width: auto;
+//       overflow: hidden;
+//     }
+// }
 // }
 
 // Card
