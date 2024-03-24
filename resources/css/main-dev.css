@@ -84,41 +84,43 @@ ul {
 }
 
 .hero {
+  border: solid 2px;
   height: 70vh;
-  width: 100vw;
-}
-.hero .wrap {
-  width: 100vw;
-  height: 70vh;
+  width: 100%;
   position: relative;
 }
-.hero .wrap .hero-img {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  -o-object-position: center;
-     object-position: center;
-  -o-object-fit: cover;
-     object-fit: cover;
-  overflow: hidden;
-}
-.hero .wrap .hero-img img {
-  margin: auto;
-  height: auto;
-  width: 100%;
-  text-align: center;
-}
-.hero .wrap .hero-info {
-  background-color: rgba(0, 0, 0, 0.37);
-  color: white;
+.hero .heroImage {
   position: absolute;
+  height: 70vh;
   top: 0;
   left: 0;
-  height: 100%;
+}
+.hero img {
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.hero .hero-content {
+  background-color: rgba(0, 0, 0, 0.3843137255);
+  z-index: 10;
+  position: relative;
+  height: 100%;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.hero .hero-content .hero-text {
+  text-align: center;
+}
+.hero .hero-content .hero-text .hero-title {
+  font-size: 3em;
+  font-weight: 700;
+}
+.hero .hero-content .hero-text p {
+  font-size: 2em;
 }
 
 .card {

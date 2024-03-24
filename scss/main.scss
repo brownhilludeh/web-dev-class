@@ -30,61 +30,84 @@
 }
 
 // Hero
-.hero {
-  height: 70vh;
-  width: 100vw;
-
-  .wrap {
-    width: 100vw;
+.hero{
+  border: solid 2px;
     height: 70vh;
-    position: relative;
-
-    .hero-img {
-      height: 100%;
       width: 100%;
-      display: flex;
-      object-position: center;
-      object-fit: cover;
-      overflow: hidden;
-
-      img {
-        margin: auto;
-        height: auto;
-        width: 100%;
-        text-align: center;
+      position: relative;
+      .heroImage{
+        position: absolute;
+        height: 70vh;
+        top: 0;
+        left: 0;
       }
-    }
-
-    .hero-info {
-      background-color: rgba(0, 0, 0, 0.37);
-      color: white;
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  }
+      img{
+        width: 100%;
+        // height: auto;
+        object-fit: cover;
+        object-position: center;
+      }
+      .hero-content{
+        background-color: #00000062;
+        z-index: 10;
+        position: relative;
+        height: 100%;
+        color: white;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+       .hero-text{
+        text-align: center;
+         .hero-title{
+          font-size: 3em;
+          font-weight: 700;
+         }
+         p{
+          font-size: 2em;
+         }
+       }
+      }
 }
 
 
-// .hero{
+// .hero {
 //   height: 70vh;
 //   width: 100vw;
-//   border: solid;
 
-// .wrap {
-//   height: 70vh;
+//   .wrap {
+//     width: 100vw;
+//     height: 70vh;
+//     position: relative;
 
-//   .hero-img {
+//     .hero-img {
 //       height: 100%;
-//       width: auto;
+//       width: 100%;
+//       display: flex;
+//       object-position: center;
+//       object-fit: cover;
 //       overflow: hidden;
+
+//       img {
+//         margin: auto;
+//         height: auto;
+//         width: 100%;
+//         text-align: center;
+//       }
 //     }
-// }
+
+//     .hero-info {
+//       background-color: rgba(0, 0, 0, 0.37);
+//       color: white;
+//       position: absolute;
+//       top: 0;
+//       left: 0;
+//       height: 100%;
+//       width: 100%;
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//     }
+//   }
 // }
 
 // Card
